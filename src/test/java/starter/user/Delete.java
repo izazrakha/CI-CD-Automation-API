@@ -10,7 +10,7 @@ public class Delete {
 
     @Step("I set DELETE api endpoints")
     public String setDeleteApiEndpoints(){
-        return url + "users/29";
+        return url + "users/5";
     }
     @Step("I send DELETE HTTP request")
     public void sendDeleteHttpRequest(){
